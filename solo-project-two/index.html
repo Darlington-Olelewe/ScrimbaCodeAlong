@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Scoreboard</title>
+</head>
+<body>
+
+    <div class="main">                                                                                                                                       
+        <section>
+            <h2 class="header">HOME</h2>
+            <div class="fonts">
+                <div class="score"><p id="h-score">0</p></div>
+                <div class="pointers">
+                    <div class="point" id="h1" onclick="hOne()">+1</div>
+                    <div class="point" id="h2" onclick="hTwo()">+2</div>
+                    <div class="point" id="h3" onclick="hThree()">+3</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="header">GUEST</h2>
+            <div class="fonts">
+                <div class="score"><p id="g-score">0</p></div>
+                <div class="pointers">
+                    <div class="point" id="g1" onclick="gOne()">+1</div>
+                    <div class="point" id="g2" onclick="gTwo()">+2</div>
+                    <div class="point" id="g3" onclick="gThree()">+3</div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>                                                                                                           
+</html>

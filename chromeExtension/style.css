@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    --green : #5f9341;
+
+}
+
+body{
+    min-width: 400px;
+}
+input{
+    border: 2px solid var(--green);
+    line-height: 30px;
+    width: 99%;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 2px 3px;
+    
+}
+
+button{
+    width: 6rem;
+    background: var(--green);
+    border: none;
+    height: 2rem;
+    border-radius: 2rem;
+
+}
